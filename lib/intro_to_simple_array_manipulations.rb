@@ -23,8 +23,8 @@ def shift_with_args
 end
 
 def using_concat
-  array.concat
+  array.concat(my_array)
 end
 
 def using_insert
-  array.insert 
+  array.insert()
